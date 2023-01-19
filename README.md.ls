@@ -25,6 +25,11 @@ document do
 
     > A curated list of JavaScript/ECMAScript runtimes, app frameworks, and engines.
 
+    - [Runtimes](\#runtimes)
+    - [App Frameworks](\#app-frameworks)
+    - [Engines](\#engines)
+    - [Links](\#links)
+
     ## Runtimes
   """
   table do
