@@ -16,7 +16,7 @@ library =
   libuv: a href: "https://libuv.org", "libuv"
   tokio: a href: "https://tokio.rs", "tokio"
 
-commit = -> img src: "https://img.shields.io/github/commit/#{it}.svg?style=flat-square"
+commit = -> img src: "https://img.shields.io/github/last-commit/#{it}?style=flat-square"
 stars = -> img src: "https://img.shields.io/github/stars/#{it}?style=flat-square"
 
 document do
