@@ -109,23 +109,35 @@ document do
         td stars "electron/electron"
         td commit "electron/electron"
       tr do
+        td a href: "https://tauri.app", "Tauri"
+        td "Desktop"
+        td runtime.node
+        td stars "tauri-apps/tauri"
+        td commit "tauri-apps/tauri"
+      tr do
         td a href: "https://nwjs.io", "nw.js"
         td "Desktop"
         td runtime.node
         td stars "nwjs/nw.js"
         td commit "nwjs/nw.js"
       tr do
-        td a href: "https://cordova.apache.org", "Cordova"
-        td "Mobile"
-        td ""
-        td stars "apache/cordova"
-        td commit "apache/cordova"
+        td a href: "https://docs.nodegui.org", "NodeGUI"
+        td "Desktop"
+        td runtime.node
+        td stars "nodegui/nodegui"
+        td commit "nodegui/nodegui"
       tr do
         td a href: "https://reactnative.dev/", "React Native"
         td "Mobile"
         td engine.hermes
         td stars "facebook/react-native"
         td commit "facebook/react-native"
+      tr do
+        td a href: "https://cordova.apache.org", "Cordova"
+        td "Mobile"
+        td ""
+        td stars "apache/cordova"
+        td commit "apache/cordova"
   raw """
     ## Engines
   """
