@@ -164,6 +164,10 @@ document do
         td stars "svaarala/duktape"
         td commit "svaarala/duktape"
       tr do
+        td a href: "https://boa-dev.github.io/about/", "Boa"
+        td stars "boa-dev/boa"
+        td commit "boa-dev/boa"
+      tr do
         td a href: "https://mozilla.github.io/rhino/", "Rhino"
         td stars "mozilla/rhino"
         td commit "mozilla/rhino"
