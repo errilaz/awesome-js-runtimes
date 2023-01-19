@@ -178,6 +178,10 @@ document do
         td a href: "https://github.com/gfwilliams/tiny-js", "tiny-js"
         td stars "gfwilliams/tiny-js"
         td commit "gfwilliams/tiny-js"
+      tr do
+        td a href: "https://github.com/openjdk/nashorn", "nashorn"
+        td stars "openjdk/nashorn"
+        td commit "openjdk/nashorn"
   """
     ## Links
 
