@@ -133,9 +133,15 @@ document do
         td stars "facebook/react-native"
         td commit "facebook/react-native"
       tr do
+        td a href: "", "Capacitor"
+        td "Mobile"
+        td "(browser)"
+        td stars "ionic-team/capacitor"
+        td commit "ionic-team/capacitor"
+      tr do
         td a href: "https://cordova.apache.org", "Cordova"
         td "Mobile"
-        td ""
+        td "(browser)"
         td stars "apache/cordova"
         td commit "apache/cordova"
   raw """
