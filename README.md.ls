@@ -98,7 +98,7 @@ document do
     thead tr do
       th "Framework"
       th "Target"
-      th "Runtime/Engine"
+      th "Engine/Backend"
       th "Stars"
       th "Commit"
     tbody do
@@ -121,11 +121,23 @@ document do
         td stars "nwjs/nw.js"
         td commit "nwjs/nw.js"
       tr do
+        td a href: "https://github.com/wailsapp/wails", "Wails"
+        td "Desktop"
+        td "Go"
+        td stars "wailsapp/wails"
+        td commit "wailsapp/wails"
+      tr do
         td a href: "https://docs.nodegui.org", "NodeGUI"
         td "Desktop"
         td runtime.node
         td stars "nodegui/nodegui"
         td commit "nodegui/nodegui"
+      tr do
+        td a href: "https://github.com/neutralinojs/neutralinojs", "Neutralino"
+        td "Desktop"
+        td "native/custom"
+        td stars "neutralinojs/neutralinojs"
+        td commit "neutralinojs/neutralinojs"
       tr do
         td a href: "https://reactnative.dev/", "React Native"
         td "Mobile"
@@ -133,7 +145,7 @@ document do
         td stars "facebook/react-native"
         td commit "facebook/react-native"
       tr do
-        td a href: "", "Capacitor"
+        td a href: "https://capacitorjs.com", "Capacitor"
         td "Mobile"
         td "(browser)"
         td stars "ionic-team/capacitor"
@@ -212,6 +224,7 @@ document do
   """
     ## Links
 
+    - [Web to Desktop framework comparison](https://github.com/Elanis/web-to-desktop-framework-comparison)
     - [List of ECMAScript engines](https://en.wikipedia.org/wiki/List_of_ECMAScript_engines) at Wikipedia
     - [Other Awesome lists](https://github.com/sindresorhus/awesome\#contents)
 
