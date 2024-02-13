@@ -5,6 +5,7 @@ runtime =
   txiki: a href: "https://github.com/saghul/txiki.js/", "Txiki.js"
   just: a href: "https://github.com/just-js/just", "Just"
   napa: a href: "https://github.com/microsoft/napajs", "Napa.js"
+  llrt: a href: "https://github.com/awslabs/llrt", "LLRT"
 
 engine =
   v8: a href: "https://v8.dev", "V8"
@@ -90,6 +91,12 @@ document do
           a href: "https://www.glfw.org/", "GLFW"
         td stars "windowjs/windowjs"
         td commit "windowjs/windowjs"
+      tr do
+        td runtime.llrt
+        td engine.quickjs
+        td library.tokio
+        td stars "awslabs/llrt"
+        td commit "awslabs/llrt"
 
   raw """
     ## App Frameworks
