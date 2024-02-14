@@ -5,7 +5,7 @@ runtime =
   txiki: a href: "https://github.com/saghul/txiki.js/", "Txiki.js"
   just: a href: "https://github.com/just-js/just", "Just"
   napa: a href: "https://github.com/microsoft/napajs", "Napa.js"
-  kaluma: a href: "https://github.com/kaluma-project/kaluma", "Kaluma"
+  kaluma: a href: "https://kalumajs.org/", "Kaluma"
 
 engine =
   v8: a href: "https://v8.dev", "V8"
