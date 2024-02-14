@@ -5,13 +5,14 @@ runtime =
   txiki: a href: "https://github.com/saghul/txiki.js/", "Txiki.js"
   just: a href: "https://github.com/just-js/just", "Just"
   napa: a href: "https://github.com/microsoft/napajs", "Napa.js"
-  llrt: a href: "https://github.com/awslabs/llrt", "LLRT"
+  kaluma: a href: "https://github.com/kaluma-project/kaluma", "Kaluma"
 
 engine =
   v8: a href: "https://v8.dev", "V8"
   jscore: a href: "https://developer.apple.com/documentation/javascriptcore", "JavaScriptCore"
   quickjs: a href: "https://bellard.org/quickjs/", "QuickJS"
   hermes: a href: "https://hermesengine.dev", "Hermes"
+  jerryscript: a href: ""https://jerryscript.net", "JerryScript"
 
 library =
   libuv: a href: "https://libuv.org", "libuv"
@@ -92,11 +93,11 @@ document do
         td stars "windowjs/windowjs"
         td commit "windowjs/windowjs"
       tr do
-        td runtime.llrt
-        td engine.quickjs
-        td library.tokio
-        td stars "awslabs/llrt"
-        td commit "awslabs/llrt"
+        td runtime.kaluma
+        td engine.jerryscript
+        td ""
+        td stars "kaluma-project/kaluma"
+        td commit "kaluma-project/kaluma"
 
   raw """
     ## App Frameworks
@@ -189,7 +190,7 @@ document do
         td stars "facebook/hermes"
         td commit "facebook/hermes"
       tr do
-        td a href: "https://jerryscript.net", "JerryScript"
+        td engine.jerryscript
         td stars "jerryscript-project/jerryscript"
         td commit "jerryscript-project/jerryscript"
       tr do
