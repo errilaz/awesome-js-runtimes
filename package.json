@@ -7,6 +7,6 @@
     "build": "pocket"
   },
   "devDependencies": {
-    "pocketpress": "^0.0.14"
+    "pocketpress": "^0.0.31"
   }
 }

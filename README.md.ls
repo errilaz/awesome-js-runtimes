@@ -5,16 +5,24 @@ runtime =
   txiki: a href: "https://github.com/saghul/txiki.js/", "Txiki.js"
   just: a href: "https://github.com/just-js/just", "Just"
   napa: a href: "https://github.com/microsoft/napajs", "Napa.js"
+  bare: a href: "https://github.com/holepunchto/bare", "Bare"
+  winterjs: a href: "https://github.com/wasmerio/winterjs", "WinterJS"
+  kaluma: a href: "https://kalumajs.org/", "Kaluma"
+  llrt: a href: "https://github.com/awslabs/llrt", "LLRT"
 
 engine =
   v8: a href: "https://v8.dev", "V8"
   jscore: a href: "https://developer.apple.com/documentation/javascriptcore", "JavaScriptCore"
   quickjs: a href: "https://bellard.org/quickjs/", "QuickJS"
   hermes: a href: "https://hermesengine.dev", "Hermes"
+  spidermonkey: a href: "https://spidermonkey.dev", "SpiderMonkey"
+  spiderfire: a href: "https://github.com/Redfire75369/spiderfire", "Spiderfire"
+  jerryscript: a href: "https://jerryscript.net", "JerryScript"
 
 library =
   libuv: a href: "https://libuv.org", "libuv"
   tokio: a href: "https://tokio.rs", "tokio"
+  hyper: a href: "https://hyper.rs/", "hyper"
 
 commit = -> img src: "https://img.shields.io/github/last-commit/#{it}?style=flat-square"
 stars = -> img src: "https://img.shields.io/github/stars/#{it}?style=flat-square"
@@ -26,7 +34,7 @@ document do
     > A curated list of JavaScript/ECMAScript runtimes, app frameworks, and engines.
 
     - [Runtimes](\#runtimes)
-    - [App Frameworks](\#app-frameworks)
+    - [Native App Frameworks](\#app-frameworks)
     - [Engines](\#engines)
     - [Links](\#links)
 
@@ -77,6 +85,20 @@ document do
         td stars "microsoft/napajs"
         td commit "microsoft/napajs"
       tr do
+        td runtime.llrt
+        td engine.quickjs
+        td library.tokio
+        td stars "awslabs/llrt"
+        td commit "awslabs/llrt"        
+      tr do
+        td runtime.winterjs
+        td do
+          engine.spidermonkey, ", "
+          engine.spiderfire
+        td library.hyper
+        td stars "wasmerio/winterjs"
+        td commit "wasmerio/winterjs"
+      tr do
         td a href: "https://github.com/elsaland/elsa", "Elsa"
         td engine.quickjs
         td ""
@@ -90,9 +112,21 @@ document do
           a href: "https://www.glfw.org/", "GLFW"
         td stars "windowjs/windowjs"
         td commit "windowjs/windowjs"
+      tr do
+        td runtime.kaluma
+        td engine.jerryscript
+        td ""
+        td stars "kaluma-project/kaluma"
+        td commit "kaluma-project/kaluma"
+      tr do
+        td runtime.bare
+        td engine.v8
+        td library.libuv
+        td stars "holepunchto/bare"
+        td commit "holepunchto/bare"
 
   raw """
-    ## App Frameworks
+    ## Native App Frameworks
   """
   table do
     thead tr do
@@ -174,7 +208,7 @@ document do
         td ""
         td ""
       tr do
-        td a href: "https://spidermonkey.dev", "SpiderMonkey"
+        td engine.spidermonkey
         td ""
         td ""
       tr do
@@ -182,13 +216,13 @@ document do
         td stars "facebook/hermes"
         td commit "facebook/hermes"
       tr do
-        td a href: "https://jerryscript.net", "JerryScript"
-        td stars "jerryscript-project/jerryscript"
-        td commit "jerryscript-project/jerryscript"
-      tr do
         td engine.quickjs
         td stars "bellard/quickjs"
         td commit "bellard/quickjs"
+      tr do
+        td engine.jerryscript
+        td stars "jerryscript-project/jerryscript"
+        td commit "jerryscript-project/jerryscript"
       tr do
         td a href: "https://duktape.org", "Duktape"
         td stars "svaarala/duktape"
@@ -206,13 +240,13 @@ document do
         td stars "espruino/Espruino"
         td commit "espruino/Espruino"
       tr do
-        td a href: "https://github.com/cesanta/elk", "Elk"
-        td stars "cesanta/elk"
-        td commit "cesanta/elk"
-      tr do
         td a href: "https://github.com/cesanta/mjs", "mJS"
         td stars "cesanta/mjs"
         td commit "cesanta/mjs"
+      tr do
+        td a href: "https://github.com/cesanta/elk", "Elk"
+        td stars "cesanta/elk"
+        td commit "cesanta/elk"
       tr do
         td a href: "https://github.com/gfwilliams/tiny-js", "tiny-js"
         td stars "gfwilliams/tiny-js"
