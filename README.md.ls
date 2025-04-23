@@ -105,7 +105,7 @@ document do
         td stars "elsaland/elsa"
         td commit "elsaland/elsa"
       tr do
-        td a href: "", "Window.js"
+        td a href: "https://github.com/windowjs/windowjs, "Window.js"
         td engine.v8
         td do
           library.libuv, ", "
@@ -190,6 +190,12 @@ document do
         td "(browser)"
         td stars "apache/cordova"
         td commit "apache/cordova"
+      tr do
+        td a href: "https://github.com/lynx-family/lynx", "Lynx"
+        td "Mobile and Web"
+        td "custom"
+        td stars "lynx-family/lynx"
+        td commit "lynx-family/lynx"
   raw """
     ## Engines
   """
@@ -255,6 +261,10 @@ document do
         td a href: "https://github.com/openjdk/nashorn", "nashorn"
         td stars "openjdk/nashorn"
         td commit "openjdk/nashorn"
+      tr do
+        td a href: "https://github.com/lynx-family/primjs", "Primjs"
+        td stars "lynx-family/primjs"
+        td commit "lynx-family/primjs"
   """
     ## Links
 
